@@ -4,6 +4,7 @@
   所有的springboot工程都必须要继承sprin-boot-starter-parent
    -->
    <!-- test111 -->
+   <!-- test -->
   <parent>    
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-parent</artifactId>    
