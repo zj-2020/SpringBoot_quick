@@ -1,0 +1,31 @@
+#普通数据配置
+name: zhangsan
+
+#对象数据配置(同map配置)
+server:
+  port: 8081
+  servlet:
+    context-path: /test
+person:
+  name: lisi
+  addr: xi'an
+  
+
+#行内对象配置
+#person: {name: lisi,age: 28,addr: xi'an}
+
+#配置数组、集合（普通字符串）
+city:
+  - beijing
+  - xi'an
+  - shanghai
+#city: [beijing,xi'an,shanghai]
+#配置数组、集合（对象）  
+student:
+  - name: tom
+    age: 18
+    addr: beijing
+  - name: jack
+    age: 19
+    addr: shanghai
+#student: [{name: tom,age: 18,addr: beijing},{name: jack,age: 19,addr: shanghai}]
