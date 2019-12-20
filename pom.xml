@@ -2,6 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <!-- 
   所有的springboot工程都必须要继承sprin-boot-starter-parent 冲突在此（已解决）
+  新分支
    -->
   <parent>    
       <groupId>org.springframework.boot</groupId>
