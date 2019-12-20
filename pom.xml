@@ -1,11 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <!-- 
-  所有的springboot工程都必须要继承sprin-boot-starter-parent
+  所有的springboot工程都必须要继承sprin-boot-starter-parent 冲突在此
    -->
-   <!-- test111 -->
-   <!-- test -->
->>>>>>> branch 'master' of https://github.com/zj-2020/SpringBoot_quick.git
   <parent>    
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-parent</artifactId>    
